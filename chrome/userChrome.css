@@ -1,0 +1,124 @@
+/*@import "icons.css";*/
+#TabsToolbar{
+border-top: 1px solid ButtonBorder !important;
+padding: 0px !important;
+margin-bottom: 0px !important;
+
+@media (-moz-platform: linux) {
+  background-color: -moz-headerbarinactive !important;
+  color: -moz-headerbarinactivetext !important;
+}
+
+order: 1;
+}
+
+.titlebar-spacer {
+  display: none !important
+}
+
+#nav-bar {
+background-color: -moz-headerbar !important;
+margin-left: -1px !important;
+margin-right: -1px !important;
+
+    &:where(:-moz-window-inactive) {
+      background-color: -moz-headerbarinactive !important;
+      color: -moz-headerbarinactivetext !important;
+      margin-bottom: 0px !important;
+    }
+}
+
+#nav-bar toolbarbutton {
+     padding-left: 3.5px !important; /* Adjust as needed */
+     padding-right: 3.5px !important;
+     
+}
+
+#tabs-newtab-button, #alltabs-button {
+    margin: 1px !important;
+    height: 32px;
+    padding: 0 !important;
+}
+
+toolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > .toolbarbutton-icon,
+toolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > .toolbarbutton-badge-stack,
+toolbar .toolbarbutton-1:not([disabled="true"]):is([open],[checked],:hover:active) > .toolbarbutton-icon,
+toolbar .toolbarbutton-1:not([disabled="true"]):is([open],[checked],:hover:active) > .toolbarbutton-badge-stack {
+  border: 1px solid AccentColor;
+  background-color: transparent !important;
+  padding: calc(var(--toolbarbutton-inner-padding) - 1px) !important;
+}
+
+.urlbar-background {
+border: 1px solid ButtonBorder !important;
+}=
+
+/* Reduce left spacer on tab bar */
+@supports (not (-moz-osx-font-smoothing: auto)) {
+    @media not (-moz-bool-pref:"browser.lefttabspacer.enable") {
+        .titlebar-spacer[type="pre-tabs"] {
+            display: none !important;
+        }
+    }
+}
+
+/* Tab - Connect to window */
+.tab-background {
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+    
+}
+
+.tab-content {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.tab-stack {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.tabbrowser-tab {
+    padding-inline: 0 !important;
+    border-right: 1px solid ButtonBorder !important;
+}
+
+/* Fx 97+ height fix */
+#tabbrowser-tabs:not([secondarytext-unsupported]) .tab-label-container {
+  height: unset !important;
+}
+
+.tabbrowser-tab,
+#tabbrowser-tabs,
+#tabbrowser-tabs > .tabbrowser-arrowscrollbox,
+.tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned],
+.tabbrowser-tabs[positionpinnedtabs] .tabbrowser-tab[pinned] {
+  min-height: 0 !important;
+}
+
+/* center tab label vertically */
+.tab-label-container, #tab-icon-image, {
+  padding-bottom: 2px !important
+}
+
+#main-window:-moz-window-inactive #titlebar {
+  opacity: 1.0 !important;
+}
+
+.tabbrowser-tab[fadein]:not([pinned]) {
+    max-width: 251px important; =
+}
+
+.tab-background {
+  margin-block: unset !important;
+}
+
+    :root {
+      --tab-min-height:32px !important;
+        margin-top: 0px !important; /* Adjust if needed for alignment */
+        margin-bottom: 0px !important;
+    }
+
