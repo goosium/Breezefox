@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="security-low.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="51.0625"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">.ColorScheme-Text { color: #fcfcfc; } </style>
+  </defs>
+  <path
+     style="color:#fcfcfc;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.75"
+     d="M 8,2 C 8,2 6.5,3.9931391 2,4.4931641 2,4.4931641 2,11.493575 8,14 14,11.493575 14,4.4931641 14,4.4931641 9.5,3.9931391 8,2 8,2 Z m 0,1.0327148 c 1.1902462,1.008525 2.90787,1.6813196 5.134277,2.0200196 -0.120944,1.0839 -0.236906,1.8995883 -0.517089,2.6879883 C 12.02837,9.3975477 11.341831,10.405496 10.726074,11.130371 9.7719035,12.253646 8.905394,12.708244 8,13.160644 7.094606,12.708244 6.2280961,12.253646 5.2739258,11.130371 4.6581691,10.405496 3.97163,9.3975478 3.3828125,7.7407227 3.102629,6.9523227 2.9866669,6.1366344 2.8657227,5.0527344 5.0921299,4.7140344 6.8097538,4.0412398 8,3.0327148 Z"
+     class="ColorScheme-Text"
+     id="path1-6" />
+  <path
+     style="color:#da4453;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.75"
+     d="M 8.75,8 C 8.3344857,8 8,8.3345 8,8.75 v 4.5 C 8,13.665575 8.3344857,14 8.75,14 h 4.5 C 13.665514,14 14,13.665575 14,13.25 V 8.75 C 14,8.3345 13.665514,8 13.25,8 Z"
+     class="ColorScheme-NegativeText"
+     id="path2" />
+  <path
+     style="fill:#ffffff;stroke-width:0.75"
+     d="m 9.5,8.75 -0.75,0.75 1.5,1.5 -1.5,1.5 0.75,0.75 1.5,-1.5 1.5,1.5 0.75,-0.75 -1.5,-1.5 1.5,-1.5 -0.75,-0.75 -1.5,1.5 z"
+     id="path4141" />
+</svg>
