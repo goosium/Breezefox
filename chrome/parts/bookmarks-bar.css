@@ -1,0 +1,7 @@
+#PersonalToolbar {
+  background-color: -moz-headerbar !important;
+  
+  &:where(:-moz-window-inactive) {
+    background-color: -moz-headerbarinactive !important;
+  }
+}
