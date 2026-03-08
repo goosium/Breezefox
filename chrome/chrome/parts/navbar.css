@@ -1,0 +1,33 @@
+#TabsToolbar{
+border-top: 1px solid ButtonBorder !important;
+padding: 0px !important;
+margin-bottom: 0px !important;
+
+@media (-moz-platform: linux) {
+    background-color: -moz-headerbarinactive !important;
+    color: -moz-headerbarinactivetext !important;
+}
+
+order: 1;
+}
+
+.titlebar-spacer {
+    display: none !important
+}
+
+#nav-bar {
+background-color: -moz-headerbar !important;
+margin: 3px !important;
+
+&:where(:-moz-window-inactive) {
+    background-color: -moz-headerbarinactive !important;
+    color: -moz-headerbarinactivetext !important;
+    margin: 3px !important;
+}
+}
+
+#nav-bar toolbarbutton {
+padding-left: 3.5px !important;
+padding-right: 3.5px !important;
+}
+

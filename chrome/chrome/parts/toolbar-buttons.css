@@ -1,0 +1,17 @@
+toolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > .toolbarbutton-icon,
+toolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > .toolbarbutton-badge-stack,
+toolbar .toolbarbutton-1:not([disabled="true"]):is([open],[checked],:hover:active) > .toolbarbutton-icon,
+toolbar .toolbarbutton-1:not([disabled="true"]):is([open],[checked],:hover:active) > .toolbarbutton-badge-stack {
+    border: 1px solid AccentColor;
+    background-color: transparent !important;
+    padding: calc(var(--toolbarbutton-inner-padding) - 1px) !important;
+}
+
+:root {
+    --toolbarbutton-border-radius: 4px !important;
+}
+
+#nav-bar toolbarbutton {
+padding-left: 3.5px !important;
+padding-right: 3.5px !important;
+}

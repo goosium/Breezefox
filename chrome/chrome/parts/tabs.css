@@ -1,0 +1,68 @@
+/* Reduce left spacer on tab bar */
+@supports (not (-moz-osx-font-smoothing: auto)) {
+    @media not (-moz-bool-pref:"browser.lefttabspacer.enable") {
+        .titlebar-spacer[type="pre-tabs"] {
+            display: none !important;
+        }
+    }
+}
+
+.tab-background {
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+}
+
+.tab-content {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.tab-stack {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.tabbrowser-tab {
+    padding-inline: 0 !important;
+    border-right: 1px solid ButtonBorder !important;
+}
+
+#tabs-newtab-button, #alltabs-button {
+    margin: 1px !important;
+    height: 32px;
+    padding: 0 !important;
+}
+
+/* Fx 97+ height fix */
+#tabbrowser-tabs:not([secondarytext-unsupported]) .tab-label-container {
+    height: unset !important;
+}
+
+.tabbrowser-tab,
+#tabbrowser-tabs,
+#tabbrowser-tabs > .tabbrowser-arrowscrollbox,
+.tabbrowser-tabs[positionpinnedtabs] > .tabbrowser-tab[pinned],
+.tabbrowser-tabs[positionpinnedtabs] .tabbrowser-tab[pinned] {
+    min-height: 0 !important;
+}
+
+.tabbrowser-tab[fadein]:not([pinned]) {
+    max-width: 251px important; =
+}
+
+.tab-background {
+    margin-block: unset !important;
+}
+
+:root {
+    --tab-min-height:32px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.tab-label-container, #tab-icon-image, {
+    padding-bottom: 2px !important
+}
+

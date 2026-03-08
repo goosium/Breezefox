@@ -1,0 +1,11 @@
+@import "parts/navbar.css";
+@import "parts/toolbar-buttons.css";
+@import "parts/tabs.css";
+@import "parts/urlbar.css";
+
+#main-window:-moz-window-inactive #titlebar {
+  opacity: 1.0 !important;
+}
+
+
+
