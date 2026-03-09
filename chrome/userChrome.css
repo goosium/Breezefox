@@ -3,6 +3,7 @@
 @import "parts/tabs.css";
 @import "parts/urlbar.css";
 @import "parts/bookmarks-bar.css";
+@import "parts/icons.css";
 
 #main-window:-moz-window-inactive #titlebar {
   opacity: 1.0 !important;
