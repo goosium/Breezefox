@@ -1,0 +1,29 @@
+/* Reduce padding in the main application menu */
+menupopup > menuitem, menupopup > menu {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+
+/* Optional: Reduce toolbar button padding */
+:root {
+  --arrowpanel-menuitem-padding: 4px 9px !important;
+  --arrowpanel-background: -moz-headerbarinactive !important;
+  --arrowpanel-padding: 4px 9px !important;
+}
+
+.menupopup-arrowscrollbox {
+  background: var(--arrowpanel-background) !important;
+}
+
+.button-class:hover {
+  border-color: #0078d7; /* Example border color */
+}
+
+.subviewbutton {
+    border: 1px solid transparent !important;
+}
+
+.subviewbutton:hover {
+    border: 1px solid AccentColor !important;
+    background-color: color-mix(in srgb, AccentColor, transparent 60%) !important;
+}

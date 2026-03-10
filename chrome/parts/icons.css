@@ -164,7 +164,7 @@ treechildren::-moz-tree-image(query, OrganizerQuery_history____v) {
 }
 /* All tabs button */
 #alltabs-button {
-list-style-image: url("icons/pan-down.svg") !important;
+list-style-image: url("icons/go-down.svg") !important;
 }
 /* Overflow button */
 #nav-bar-overflow-button {
@@ -458,7 +458,7 @@ list-style-image: url("icons/document-import.svg") !important;
 list-style-image: url("icons/settings.svg") !important;
 }
 /* Toolbar passwords button */
-#logins-button {
+#logins-button, #tracking-protection-icon {
 list-style-image: url("icons/password.svg") !important;
 }
 /* Toolbar bookmarks */
@@ -513,4 +513,49 @@ background-color: unset !important;
 .menu-right {
     fill: #7f7f7f !important;
     -moz-context-properties: fill, fill-opacity;
+}
+
+.urlbar-icon, .star-button {
+  width: 24px !important;
+  height: 22px !important;
+}
+
+#identity-icon, #permissions-granted-icon {
+  width: 24px !important;
+  height: 22px !important;
+}
+
+#star-button-box, #reader-mode-button, #identity-icon-box, #identity-permission-box {
+  padding: 3px !important;
+}
+
+#identity-icon-box, #identity-permission-box {
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}
+
+
+:is(#PanelUI-button, #alltabs-button, #downloads-button, #tabs-newtab-button) .toolbarbutton-icon{
+  padding: 0 !important;
+  width: 22px !important;
+  height: 24px !important;
+}
+
+:is(#PanelUI-button, #alltabs-button,#downloads-button) .toolbarbutton-badge-stack{
+  width: 32px !important;
+  height: 32px !important;
+  padding: 4px !important;
+  padding-left: 5px !important;
+}
+
+:is(#tabs-newtab-button) .toolbarbutton-icon{
+  padding: 5px !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+
+:is(#downloads-button, #tabs-newtab-button) .toolbarbutton-badge-stack{
+  width: 32px !important;
+  height: 32px !important;
+  padding: 5px !important;
 }

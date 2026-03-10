@@ -2,9 +2,8 @@ toolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hove
 toolbar .toolbarbutton-1:not([disabled="true"], [checked], [open], :active):hover > .toolbarbutton-badge-stack,
 toolbar .toolbarbutton-1:not([disabled="true"]):is([open],[checked],:hover:active) > .toolbarbutton-icon,
 toolbar .toolbarbutton-1:not([disabled="true"]):is([open],[checked],:hover:active) > .toolbarbutton-badge-stack {
-    border: 1px solid AccentColor;
+    box-shadow: inset 0 0 0 1px AccentColor;
     background-color: transparent !important;
-    padding: calc(var(--toolbarbutton-inner-padding) - 1px) !important;
 }
 
 :root {
@@ -12,6 +11,12 @@ toolbar .toolbarbutton-1:not([disabled="true"]):is([open],[checked],:hover:activ
 }
 
 #nav-bar toolbarbutton {
-padding-left: 3.5px !important;
-padding-right: 3.5px !important;
+padding-left: 3px !important;
+padding-right: 3px !important;
+}
+
+#nav-bar .toolbarbutton-1 > .toolbarbutton-icon {
+  height: 32px !important;
+  width: 32px !important;
+  padding: 5px !important;
 }

@@ -15,3 +15,8 @@ a KDE styled Firefox userchrome
 	> **Note:** If you are using wayland, also enable `widget.gtk.global-menu.wayland.enabled`.
 
 - **If you have `xdg-desktop-portal` & `xdg-desktop-portal-kde` installed you can set this to 1 to use the KDE file picker** `widget.use-xdg-desktop-portal.file-picker`.
+
+
+Credits:
+- Icon implementation taken from https://github.com/PapirusDevelopmentTeam/firefox-papirus-icon-theme
+- Menu theming taken from https://github.com/Aris-t2/CustomCSSforFx

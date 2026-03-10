@@ -4,6 +4,8 @@
 @import "parts/urlbar.css";
 @import "parts/bookmarks-bar.css";
 @import "parts/icons.css";
+@import "parts/app-menu/appbutton_popup_icons.css";
+@import "parts/app-menu/appmenu.css";
 
 #main-window:-moz-window-inactive #titlebar {
   opacity: 1.0 !important;
